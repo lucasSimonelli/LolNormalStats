@@ -1,21 +1,16 @@
+#Libs
 import requests
 from lxml import html
-from models import *
-import Tkinter as tk
-from queries import getChampionStats
-from updates import updateGameTypeSpecificStats
-from constants import constants, champions
-from inout import printHtmlTable
+
+#My packages
+from database.queries import getChampionStats
+from database.updates import updateGameTypeSpecificStats
+from database.models import *
+from utilities.constants import constants, champions
+from utilities.inout import printHtmlTable
+from utilities.misc import findBetween
 
 
-#Finds a substring between 2 given phrases
-def find_between( s, first, last ):
-	try:
-		start = s.index( first ) + len( first )
-		end = s.index( last, start )
-		return s[start:end]
-	except ValueError:
-		return ""
 
 #Harcoded to lolking html structure
 def getChampionName(detail):
@@ -29,7 +24,7 @@ def matchWasWon(detail):
 def loadNewMatches():
 	r = requests.get(constants['lolkingUrl'])
 
-	historyHTML = find_between(r.text,constants['startTrim'],constants['endTrim'])
+	historyHTML = findBetween(r.text,constants['startTrim'],constants['endTrim'])
 	historyHTML = historyHTML.rstrip('\n')[3:-2] #Removing \n hardcodily.
 	parsed = html.fromstring(historyHTML)
 
@@ -59,7 +54,7 @@ def loadNewMatches():
 				assists = int(detail[3][0][6].text)
 				
 				#4th cell: gold
-				gold = float(detail[4][0][0].text[0:-1])*1000
+				gold = int(float(detail[4][0][0].text[0:-1])*1000)
 
 				#5th cell: minions
 				minions = int(detail[5][0][0].text)

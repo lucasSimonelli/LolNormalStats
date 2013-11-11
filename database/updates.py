@@ -1,6 +1,5 @@
-from constants import constants
-from models import *
-
+from utilities.constants import constants
+from database.models import *
 def updateGameTypeSpecificStats(dbObject, gameType):
 	if gameType == constants['normal']:
 		updateNormalStats(dbObject)

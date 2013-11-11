@@ -1,5 +1,5 @@
-from constants import constants
-from models import *
+from utilities.constants import constants
+from database.models import *
 
 def getNormalStats(champion):
 	query = NormalStats.query.filter_by(champion=champion)
