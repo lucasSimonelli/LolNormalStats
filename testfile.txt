@@ -1,0 +1,2101 @@
+<div class="pane_inner" style="position: relative; display: none;">
+
+	<div class="match_win" data-game-id="38878892">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/13_92.png) #000;">
+					<a href="/champions/ryze"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Custom</div>
+				<div style="font-weight: bold; font-size: 16px; color: #66CC33;">Win</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 9:40PM PST">11 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>41 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>14</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>11</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>16</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>16.8k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>190</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/12.png);">
+
+						<a href="/spell/12"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3040_32.png);"><a href="/items/3040"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3191_32.png);"><a href="/items/3191"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3255_32.png);"><a href="/items/3255"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3110_32.png);"><a href="/items/3110"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3027_32.png);"><a href="/items/3027"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3135_32.png);"><a href="/items/3135"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/13_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/ryze" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/57_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/maokai" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227339">Motoex</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/37_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/sona" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/83168">lucasrg94</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/32_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/amumu" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/173402">NaturalSong</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/85_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/kennen" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/58_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/renekton" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/44874">Guaymallen</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/55_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/katarina" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/84789">Santyyy</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/72_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/skarner" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227524">Deimos</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/111_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/nautilus" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/149151">MartinPalermo</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/80_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/pantheon" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/236634">Yulaff</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>165,933</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>37,419</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>4,404</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>2</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>455</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>1</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_loss" data-game-id="38917731">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_92.png) #000;">
+					<a href="/champions/shaco"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Custom</div>
+				<div style="font-weight: bold; font-size: 16px; color: #DD7777;">Loss</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 8:45PM PST">12 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 				<strong>Unknown</strong>
+			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>14</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>12</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>8</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>12.6k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>36</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/14.png);">
+
+						<a href="/spell/14"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/21.png);">
+
+						<a href="/spell/21"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3157_32.png);"><a href="/items/3157"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3100_32.png);"><a href="/items/3100"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1026_32.png);"><a href="/items/1026"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3089_32.png);"><a href="/items/3089"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3020_32.png);"><a href="/items/3020"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/shaco" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/110_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/varus" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/44874">Guaymallen</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/32_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/amumu" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/1330493">agapornisOficial</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/61_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/orianna" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/236634">Yulaff</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/53_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/blitzcrank" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/83168">lucasrg94</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/74_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/heimerdinger" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227339">Motoex</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/55_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/katarina" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/173402">NaturalSong</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/110_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/varus" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>52,278</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>24,820</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>726</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>1</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>335</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>0</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_loss" data-game-id="38937546">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_92.png) #000;">
+					<a href="/champions/shaco"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Custom</div>
+				<div style="font-weight: bold; font-size: 16px; color: #DD7777;">Loss</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 8:11PM PST">12 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 				<strong>Unknown</strong>
+			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>16</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>10</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>7</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>11.5k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>31</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/21.png);">
+
+						<a href="/spell/21"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1056_32.png);"><a href="/items/1056"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3100_32.png);"><a href="/items/3100"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3020_32.png);"><a href="/items/3020"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3108_32.png);"><a href="/items/3108"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3089_32.png);"><a href="/items/3089"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/shaco" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/28_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/evelynn" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227339">Motoex</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/42_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/corki" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/44874">Guaymallen</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/412_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/thresh" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/1330493">agapornisOficial</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/92_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/riven" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/83168">lucasrg94</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/81_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/ezreal" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/105_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/fizz" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/604815">Mufaine</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/45_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/veigar" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/236634">Yulaff</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>44,583</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>20,526</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>578</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>2</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>288</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>0</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_loss" data-game-id="39034977">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_92.png) #000;">
+					<a href="/champions/caitlyn"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Ranked Team 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #DD7777;">Loss</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 7:05PM PST">13 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>37 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>4</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>7</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>8</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>10.4k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>180</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/21.png);">
+
+						<a href="/spell/21"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3006_32.png);"><a href="/items/3006"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1055_32.png);"><a href="/items/1055"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3031_32.png);"><a href="/items/3031"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1053_32.png);"><a href="/items/1053"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3035_32.png);"><a href="/items/3035"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3086_32.png);"><a href="/items/3086"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/caitlyn" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/254_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/vi" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/287584">Juvenile</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/127_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/lissandra" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/143_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/zyra" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227357">Mattlike</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/62_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/monkeyking" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/232626">Innadiflames</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/22_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/ashe" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/45261">MaGmA cL</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/412_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/thresh" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/149748">BZX PanXo</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/98_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/shen" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/92661">BZX MikKyneX</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/103_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/ahri" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/45284">dagosigora</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/57_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/maokai" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/36879">Harux1</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>122,626</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>19,643</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>1,566</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>1</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>220</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>1</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_loss" data-game-id="39027911">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_92.png) #000;">
+					<a href="/champions/caitlyn"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Ranked Team 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #DD7777;">Loss</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 6:13PM PST">14 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>27 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>2</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>4</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>2</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>7.4k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>162</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/21.png);">
+
+						<a href="/spell/21"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1055_32.png);"><a href="/items/1055"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3031_32.png);"><a href="/items/3031"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3250_32.png);"><a href="/items/3250"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1037_32.png);"><a href="/items/1037"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/caitlyn" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/64_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/leesin" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/287584">Juvenile</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/99_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/lux" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/89_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/leona" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227357">Mattlike</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/62_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/monkeyking" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/232626">Innadiflames</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/61_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/orianna" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/81864">aislap</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/222_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jinx" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/87776">kramerrinx</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/126_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jayce" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/39739">peponFK</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/59_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jarvaniv" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/102449">chamakeis</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/37_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/sona" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/60921">Kaen Carbol</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>83,137</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>10,353</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>1,473</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>1</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>87</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>0</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_win" data-game-id="38987849">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/81_92.png) #000;">
+					<a href="/champions/ezreal"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Normal 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #66CC33;">Win</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 3:33PM PST">17 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>29 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>20</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>4</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>9</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>16.1k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>190</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/21.png);">
+
+						<a href="/spell/21"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1055_32.png);"><a href="/items/1055"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3078_32.png);"><a href="/items/3078"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3006_32.png);"><a href="/items/3006"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3072_32.png);"><a href="/items/3072"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3035_32.png);"><a href="/items/3035"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3031_32.png);"><a href="/items/3031"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/81_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/ezreal" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/92_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/riven" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/426823">BastiOPChile</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/134_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/syndra" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/32_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/amumu" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/1330493">agapornisOficial</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/58_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/renekton" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/305186">FrostSilhouette</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/59_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jarvaniv" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/151449">FckMeSkrillex</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/105_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/fizz" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/115194">CSVendenta</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/222_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jinx" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/189677">maxinya</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/58_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/renekton" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/313139">Rompe Huezo</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/1_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/annie" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/135484">Third Eye</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>149,514</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>20,444</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>1,797</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>2</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>135</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>1</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_loss" data-game-id="38980268">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/76_92.png) #000;">
+					<a href="/champions/nidalee"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Normal 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #DD7777;">Loss</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 2:40PM PST">18 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>31 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>7</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>6</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>7</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>9.5k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>88</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/14.png);">
+
+						<a href="/spell/14"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1056_32.png);"><a href="/items/1056"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1056_32.png);"><a href="/items/1056"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3089_32.png);"><a href="/items/3089"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3070_32.png);"><a href="/items/3070"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3255_32.png);"><a href="/items/3255"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3098_32.png);"><a href="/items/3098"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/76_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/nidalee" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/92_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/riven" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/83168">lucasrg94</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/126_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jayce" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/308089">Holyjotape</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/238_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/zed" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/287584">Juvenile</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/28_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/evelynn" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/4_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/twistedfate" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/307898">ilmAsLoco</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/75_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/nasus" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/118103">grom flame</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/89_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/leona" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/42640">MarqoO</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/77_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/udyr" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/143203">Amked</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/caitlyn" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/25601">BlackDragonKingE</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>72,772</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>20,407</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>4,337</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>2</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>209</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>1</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_loss" data-game-id="38944752">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_92.png) #000;">
+					<a href="/champions/shaco"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Normal 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #DD7777;">Loss</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 1:05PM PST">19 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>43 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>8</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>8</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>1</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>14.1k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>217</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/14.png);">
+
+						<a href="/spell/14"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/11.png);">
+
+						<a href="/spell/11"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3074_32.png);"><a href="/items/3074"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3270_32.png);"><a href="/items/3270"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3087_32.png);"><a href="/items/3087"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3031_32.png);"><a href="/items/3031"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1057_32.png);"><a href="/items/1057"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3106_32.png);"><a href="/items/3106"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/shaco" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/17_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/teemo" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/81_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/ezreal" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/45294">Armak Gedon</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/16_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/soraka" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/141618">Xirde</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/82_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/mordekaiser" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/159705">Satiretalised</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/67_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/vayne" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/157048">Prolopo</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/45_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/veigar" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/493163">Don Natural</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/111_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/nautilus" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/48536">Bazoka 4cid</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/25_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/morgana" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/67655">Don Dieguillo</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/23_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/tryndamere" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/76713">Aquilezzz</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>193,287</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>33,179</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>5,599</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>1</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>349</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>1</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_win" data-game-id="38923796">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/40_92.png) #000;">
+					<a href="/champions/janna"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Normal 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #66CC33;">Win</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 12:11PM PST">20 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>29 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>4</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>5</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>11</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>9.5k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>22</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/3.png);">
+
+						<a href="/spell/3"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3092_32.png);"><a href="/items/3092"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/2045_32.png);"><a href="/items/2045"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1058_32.png);"><a href="/items/1058"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3270_32.png);"><a href="/items/3270"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3041_32.png);"><a href="/items/3041"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3096_32.png);"><a href="/items/3096"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/40_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/janna" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/67_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/vayne" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227336">Auron</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/2_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/olaf" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/45294">Armak Gedon</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/115_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/ziggs" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/141618">Xirde</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/35_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/shaco" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/159705">Satiretalised</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/266_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/aatrox" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/161067">Chunko</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/134_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/syndra" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/110716">Cloiwi</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/53_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/blitzcrank" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/66979">Kyur</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/126_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jayce" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/50670">D00dhjk</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/222_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jinx" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/31832">jpkt</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>16,443</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>13,433</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>1,092</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>1</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>116</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>1</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="match_win" data-game-id="38856332">
+	<div class="match_details">
+		<div class="match_details_cell">
+			<div style="width: 66px;">
+				<div class="summoner_icon_64" style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_92.png) #000;">
+					<a href="/champions/caitlyn"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell" >
+			<div style="width: 100px;">
+				<div style="font-size: 12px; font-weight: bold;">Ranked Solo 5v5</div>
+				<div style="font-weight: bold; font-size: 16px; color: #66CC33;">Win</div>
+				<div style="font-size: 10px; color: rgb(221, 221, 221);"><span style="border-bottom: 1px dotted #999;" data-hoverswitch="11/10/13 10:55AM PST">21 hours ago</span></div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 64px;">
+			 			 					~<strong>51 mins</strong>
+				 			 				<div class="match_details_cell_label">Game Length</div>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 70px;">
+
+				<strong>6</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Kills</span><br />
+				<strong>7</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Deaths</span><br />
+				<strong>15</strong> <span style="color: #BBBBBB; font-size: 10px; line-height: 6px;">Assists</span>
+
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 41px;">
+				<strong>16k</strong><div class="match_details_cell_label">Gold</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+			<div style="width: 38px;">
+				<strong>249</strong><div class="match_details_cell_label">Minions</div>
+			</div>
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 42px;">
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/4.png);">
+
+						<a href="/spell/4"></a>
+
+					</div></div>
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+					<div style="display: table-cell; padding: 2px;"><div class="icon_36" style="background: url(//lkimg.zamimg.com/images/spells/21.png);">
+
+						<a href="/spell/21"></a>
+
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="match_details_cell">
+
+			<div style="width: 114px;">
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3046_32.png);"><a href="/items/3046"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3031_32.png);"><a href="/items/3031"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3035_32.png);"><a href="/items/3035"></a></div>
+				   					</div>
+				
+				</div>
+
+				<div style="padding: 2px; display: table-row;">
+
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3250_32.png);"><a href="/items/3250"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/3072_32.png);"><a href="/items/3072"></a></div>
+				   					</div>
+									<div style="display: table-cell; padding: 2px; width: 34px; height: 34px;">
+				   						<div class="icon_32" style="background: url(//lkimg.zamimg.com/shared/riot/images/items/1031_32.png);"><a href="/items/1031"></a></div>
+				   					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="match_details_cell" style="width: 100px;">
+			<button class="match_show_full_details_btn">Show Details</button>
+		</div>
+
+	</div>
+
+	<div class="match_details_extended">
+
+		<div style="margin: 10px; background: rgba(0, 0, 0, 0.3); box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset; overflow: hidden;">
+
+			<div style="overflow: hidden; width: 60%; float: left;">
+				<table style="margin: 10px auto;">
+					<tbody>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Winning Team</td></tr>
+								<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/51_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 1px #000;">
+
+									<a href="/champions/caitlyn" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;">DreamMirrors</td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/92_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/riven" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/47693">Askorin</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/111_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/nautilus" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/108433">P3RS305</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/89_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/leona" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/227357">Mattlike</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/79_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/gragas" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/79035">alanmilton</a></td></tr>
+															</tbody>
+							</table>
+						</td>
+				   						<td style="font-size: 24px; padding: 20px;">VS</td>
+						<td>
+
+							<table>
+								<tbody>
+								<tr><td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; padding-bottom: 6px;">Losing Team</td></tr>
+
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/222_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jinx" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/23216">PM Asenjota</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/24_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/jax" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/285817">TheBlackDeemon</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/103_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/ahri" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/113219">Cpt mat1</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/37_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/sona" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/150590">emikuN</a></td></tr>
+															<tr><td style="padding: 1px;"><div style="background: url(//lkimg.zamimg.com/shared/riot/images/champions/64_32.png); width: 32px; height: 32px; background-size: 32px; border-radius: 6px; border-radius: 6px; box-shadow: 0 0 2px #000;">
+
+									<a href="/champions/leesin" style="width: 32px; height: 32px; display: inline-block;"></a>
+
+								</div></td><td style="color: #FFF;"><a href="/summoner/las/77018">GitanoLoco</a></td></tr>
+							
+								</tbody>
+							</table>
+
+						</td>
+				   					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="match_details_extended_stats">
+				<table style="">
+					<tbody>
+				   					<tr><th><img src="//lkimg.zamimg.com/images/icon-sword.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Dealt</th><td>243,647</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-shield.png" style="vertical-align: middle; position: relative; top: -2px;" /> Damage Received</th><td>25,076</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-hand.png" style="vertical-align: middle; position: relative; top: -2px;" /> Healing Done</th><td>700</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-3-skulls.png" style="vertical-align: middle; position: relative; top: -2px;" /> Largest Multi-Kill</th><td>1</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-skull.png" style="vertical-align: middle; position: relative; top: -2px;" /> Time Spent Dead</th><td>333</td></tr>
+					<tr><th><img src="//lkimg.zamimg.com/images/icon-broken-turret.png" style="vertical-align: middle; position: relative; top: -2px;" /> Turrets Destroyed</th><td>2</td></tr>
+				   
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	
+
+</div>
