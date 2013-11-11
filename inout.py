@@ -13,12 +13,10 @@ def dictToListOfLists(dict):
 	output.append(auxList)
 	return output
 
-a= [ ["a","b"],[1,2]]
+
 #Given a list of lists outputs an html table to the current dir
 def printHtmlTable(list):
 	htmlcode = HTML.table(list[1:],header_row=list[0])
 	f = open("out.html","a")
 	f.write(htmlcode)
 	f.close()
-
-printHtmlTable(a)

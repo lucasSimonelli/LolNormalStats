@@ -4,7 +4,9 @@ from models import *
 import Tkinter as tk
 from queries import getChampionStats
 from updates import updateGameTypeSpecificStats
-from constants import constants
+from constants import constants, champions
+from inout import printHtmlTable
+
 
 #Finds a substring between 2 given phrases
 def find_between( s, first, last ):
@@ -72,4 +74,20 @@ setup_all()
 create_all()
 loadNewMatches()
 
-print getChampionStats('nidalee', constants['normal'])
+l=[]
+firstTime=True
+for champion in champions:
+	dict=getChampionStats(champion.lower(), constants['normal'])
+	if dict==None:
+		continue
+	if firstTime:
+		firstTime=False
+		l.append(dict.keys())
+	#The html printer doesnt like to print the 0 integer, apparently
+	if (dict['wins']==0):
+		dict['wins']="0"
+	if (dict['losses']==0):
+		dict['losses']="0"
+	l.append(dict.values())
+	print dict.values()
+printHtmlTable(l)
