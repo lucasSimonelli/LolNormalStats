@@ -216,3 +216,7 @@ pip-log.txt
 
 #Database
 *.sqlite
+
+#Aux dlls
+
+*.dll
