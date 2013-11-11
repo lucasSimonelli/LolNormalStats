@@ -1,0 +1,11 @@
+constants={}
+constants['normal']="Normal 5v5"
+constants['aram']="Howling Abyss"
+constants['rankedTeam']="Ranked Team 5v5"
+constants['soloQ']="Ranked Solo 5v5"
+constants['lolkingUrl'] = "http://www.lolking.net/summoner/las/235830"
+constants['startTrim'] = "<!-- MATCH HISTORY -->"
+constants['endTrim'] = "<!-- MASTERIES -->"
+constants['detailsExtended'] = 'match_details_extended'
+constants['dataGameIdClass'] = 'data-game-id'
+constants['winText'] = "Win" 
