@@ -1,5 +1,9 @@
 import HTML, requests
+from lxml import html
+
 from utilities.constants import constants
+from utilities.misc import findBetween
+
 
 #Returns a list of lists, the first one containing the keys and the second one the values
 def dictToListOfLists(dict):
