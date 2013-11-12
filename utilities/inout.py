@@ -1,4 +1,5 @@
-import HTML
+import HTML, requests
+from utilities.constants import constants
 
 #Returns a list of lists, the first one containing the keys and the second one the values
 def dictToListOfLists(dict):
@@ -21,3 +22,12 @@ def printHtmlTable(list):
 		f = open("out.html","a")
 		f.write(htmlcode)
 		f.close()
+
+
+def loadLolkingHTML(json):
+	r = requests.get(json['lolkingUrl'])
+
+	historyHTML = findBetween(r.text,constants['startTrim'],constants['endTrim'])
+	historyHTML = historyHTML.rstrip('\n')[3:-2] #Removing \n hardcodily.
+	parsed = html.fromstring(historyHTML)
+	return parsed
