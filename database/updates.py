@@ -91,7 +91,7 @@ def matchWasWon(detail):
 	return False
 
 
-def extractData(detail):
+def extractData(detail,gameID):
 	#1st cell: champion
 	champion = getChampionName(detail)
 
@@ -121,7 +121,6 @@ def extractData(detail):
 
 def loadNewMatches(json):
 	parsed = loadLolkingHTML(json)
-
 	for match in parsed:
 		gameID = int(match.get(constants['dataGameIdClass']))
 		#Check if match is already in db
@@ -130,7 +129,5 @@ def loadNewMatches(json):
 				#ignoring extended details for now
 				if detail.get('class')==constants['detailsExtended']:
 					continue
-
-				extractData(detail)
-
+				extractData(detail,gameID)
 	session.commit()
