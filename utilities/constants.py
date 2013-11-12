@@ -3,6 +3,7 @@ constants={
 'aram':"Howling Abyss",
 'rankedTeam':"Ranked Team 5v5",
 'soloQ':"Ranked Solo 5v5",
+'custom':"Custom",
 'lolkingUrl': "http://www.lolking.net/summoner/las/235830",
 'startTrim': "<!-- MATCH HISTORY -->",
 'endTrim': "<!-- MASTERIES -->",

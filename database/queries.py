@@ -19,6 +19,12 @@ def getAramStats(champion):
 		return None
 	return query.first()
 
+def getCustomStats(champion):
+	query = CustomStats.query.filter_by(champion=champion)
+	if not query.count():
+		return None
+	return query.first()
+
 def getTeamRankedStats(champion):
 	query = RankedTeamStats.query.filter_by(champion=champion)
 	if not query.count():
@@ -31,6 +37,7 @@ options = {
 	constants['soloQ']:getSoloQStats,
 	constants['aram']:getAramStats,
 	constants['rankedTeam']:getTeamRankedStats,
+	constants['custom']:getTeamRankedStats,
 }
 
 #Returns a dict with the query results

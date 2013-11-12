@@ -11,6 +11,8 @@ def updateGameTypeSpecificStats(dbObject, gameType):
 		updateRankedTeamStats(dbObject)
 	elif gameType == constants['soloQ']:
 		updateSoloQStats(dbObject)
+	elif gameType == constants['custom']:
+		updateCustomStats(dbObject)
 
 def updateNormalStats(obj):
 	query = NormalStats.query.filter_by(champion=obj.champion)
@@ -59,6 +61,20 @@ def updateSoloQStats(obj):
 	#If we have no stats for that champion
 	if not query.count():
 		dbObject = SoloQStats(champion=obj.champion,kills=obj.kills,deaths=obj.deaths,assists=obj.assists,gold=obj.gold,minions=obj.minions)
+		if obj.won:
+			dbObject.wins=1
+		else:
+			dbObject.losses=1
+		session.add(dbObject)
+	else:
+		stat = query.first()
+		updateStat(stat,obj)
+
+def updateCustomStats(obj):
+	query = CustomStats.query.filter_by(champion=obj.champion)
+	#If we have no stats for that champion
+	if not query.count():
+		dbObject = CustomStats(champion=obj.champion,kills=obj.kills,deaths=obj.deaths,assists=obj.assists,gold=obj.gold,minions=obj.minions)
 		if obj.won:
 			dbObject.wins=1
 		else:

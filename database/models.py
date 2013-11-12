@@ -55,3 +55,13 @@ class SoloQStats(Entity):
     gold = Field(Integer, default=0)
     minions = Field(Integer, default=0)
 
+class CustomStats(Entity):
+    champion = Field(String(20))
+    kills = Field(Integer, default=0)
+    deaths = Field(Integer, default=0)
+    assists = Field(Integer, default=0)
+    wins = Field(Integer, default=0)
+    losses = Field(Integer, default=0)
+    gold = Field(Integer, default=0)
+    minions = Field(Integer, default=0)
+
