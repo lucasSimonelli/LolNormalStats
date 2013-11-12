@@ -2,17 +2,6 @@ from utilities.constants import constants
 from database.models import *
 from utilities.inout import loadLolkingHTML
 
-def updateGameTypeSpecificStats(dbObject, gameType):
-	if gameType == constants['normal']:
-		updateNormalStats(dbObject)
-	elif gameType == constants['aram']:
-		updateAramStats(dbObject)
-	elif gameType == constants['rankedTeam']:
-		updateRankedTeamStats(dbObject)
-	elif gameType == constants['soloQ']:
-		updateSoloQStats(dbObject)
-	elif gameType == constants['custom']:
-		updateCustomStats(dbObject)
 
 def updateNormalStats(obj):
 	query = NormalStats.query.filter_by(champion=obj.champion)
@@ -95,6 +84,19 @@ def updateStat(stat,newObj):
 		stat.wins+=1
 	else:
 		stat.losses+=1
+
+#Classy pythonic "switch" statement v2
+options = {
+	constants['normal']:updateNormalStats,
+	constants['soloQ']:updateSoloQStats,
+	constants['aram']:updateAramStats,
+	constants['rankedTeam']:updateRankedTeamStats,
+	constants['custom']:updateCustomStats,
+}
+
+def updateGameTypeSpecificStats(dbObject, gameType):
+	options[gameType](dbObject)
+
 
 
 #Harcoded to lolking html structure
