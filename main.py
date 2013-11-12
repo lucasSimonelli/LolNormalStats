@@ -1,7 +1,8 @@
 #Libs
-import requests
+import requests, tkMessageBox, json
 from lxml import html
-
+from Tkinter import *
+import ttk
 #My packages
 from database.queries import getChampionStats
 from database.updates import updateGameTypeSpecificStats
@@ -21,8 +22,8 @@ def matchWasWon(detail):
 		return True
 	return False
 
-def loadNewMatches():
-	r = requests.get(constants['lolkingUrl'])
+def loadNewMatches(js):
+	r = requests.get(js['lolkingUrl'])
 
 	historyHTML = findBetween(r.text,constants['startTrim'],constants['endTrim'])
 	historyHTML = historyHTML.rstrip('\n')[3:-2] #Removing \n hardcodily.
@@ -36,7 +37,7 @@ def loadNewMatches():
 				#ignoring extended details for now
 				if detail.get('class')==constants['detailsExtended']:
 					continue
-				
+
 				#1st cell: champion
 				champion = getChampionName(detail)
 
@@ -65,9 +66,73 @@ def loadNewMatches():
 
 	session.commit()
 
+js={}
+try:
+	config = open('config.json')
+	js = json.load(config) 
+	config.close()
+except IOError:
+	js['lolkingUrl'] = constants['lolkingUrl']
+	
+
+
+
+master = Tk('LolNormalStats')
+master.title('LolNormalStats')
+w=master.winfo_screenwidth()
+h=master.winfo_screenheight()
+master.geometry("300x100+%d+%d" % ( (w-300)/2, (h-100)/2 ) )
+w = Label(master, text="Your lolking url:")
+w.grid(columnspan=2)
+
+e = Entry(master, width=50)
+e.insert(0, js['lolkingUrl'])
+e.grid(columnspan=2)
+
+
+
+e.focus_set()
+
 setup_all()
 create_all()
-loadNewMatches()
+def callback():
+	try:
+		js['lolkingUrl']=e.get()
+		tkMessageBox.showinfo(
+			"Ok Url",
+			"Url loaded successfully"
+		)
+	except requests.exceptions.MissingSchema:
+		tkMessageBox.showerror(
+			"Wrong Url",
+			"Cannot open provided url"
+		)
+
+def getData():
+	try:
+		pb1 = ttk.Progressbar(master, mode='determinate', name='pb1')
+		loadNewMatches(js)
+		tkMessageBox.showinfo(
+			"Ok Url",
+			"data downloaded successfully"
+		)
+	except requests.exceptions.MissingSchema:
+		tkMessageBox.showerror(
+			"Wrong Url",
+			"Cannot open provided url"
+		)
+
+b = Button(master, text="Load lolking url", command=callback)
+b.grid(row=2, column=0)
+
+
+b2 = Button(master, text="Get data", command=getData)
+b2.grid(row=2, column=1)
+
+
+mainloop()
+
+
 
 l=[]
 firstTime=True
@@ -84,5 +149,9 @@ for champion in champions:
 	if (dict['losses']==0):
 		dict['losses']="0"
 	l.append(dict.values())
-	print dict.values()
 printHtmlTable(l)
+
+config = open('config.json','w')
+json.dump(js, config, sort_keys=True, indent=4)
+config.close()
+print "#Lata!"

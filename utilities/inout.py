@@ -16,7 +16,8 @@ def dictToListOfLists(dict):
 
 #Given a list of lists outputs an html table to the current dir
 def printHtmlTable(list):
-	htmlcode = HTML.table(list[1:],header_row=list[0])
-	f = open("out.html","a")
-	f.write(htmlcode)
-	f.close()
+	if len(list)>0:
+		htmlcode = HTML.table(list[1:],header_row=list[0])
+		f = open("out.html","a")
+		f.write(htmlcode)
+		f.close()
