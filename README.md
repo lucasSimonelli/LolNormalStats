@@ -1,10 +1,10 @@
-Python app that lets you record your non-ranked games and get stats for them
+Python (32 bit) app that lets you record your non-ranked games and get stats for them
 
-Dependencies:
+Dependencies [all 32-bit]:
 
-* elixir/sqlalchemy: pip install elixir (or download from main page)
+* elixir/sqlalchemy: pip install elixir; pip install SQLAlchemy==0.7.8
 
-* lxml: pip install lxml (or download from main page)
+* lxml: pip install lxml (or https://pypi.python.org/pypi/lxml/3.2.4#downloads [way easier in win32])
 
 * html-py: http://www.decalage.info/python/html#attachments
 
