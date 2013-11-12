@@ -1,7 +1,6 @@
 #Libs
-import tkMessageBox, json
-from Tkinter import *
-import ttk
+import json
+
 #My packages
 from database.queries import getChampionStats
 from database.updates import loadNewMatches
@@ -12,7 +11,7 @@ from view.view import MainWindow
 
 js={}
 try:
-	config = open('config.json')
+	config = open('config.json','r')
 	js = json.load(config) 
 	config.close()
 except IOError:
