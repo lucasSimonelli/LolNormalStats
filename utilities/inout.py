@@ -60,7 +60,6 @@ def printStatsToHtml(gamemode):
 		return
 
 	f = open(directory+'/'+gamemode+'-stats.html','w')
-	print gamemode
 	f.write(htmlHead % (gamemode,gamemode))
 	for champion in champions:
 		dict=getChampionStats(champion.lower(), gamemode)
@@ -77,3 +76,11 @@ def printStatsToHtml(gamemode):
 
 	f.write(htmlFooter)
 	f.close()
+
+
+def printAllStatsToHtml():
+	printStatsToHtml(constants['normal'])
+	printStatsToHtml(constants['aram'])
+	printStatsToHtml(constants['rankedTeam'])
+	printStatsToHtml(constants['soloQ'])
+	printStatsToHtml(constants['custom'])

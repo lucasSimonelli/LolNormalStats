@@ -24,14 +24,6 @@ create_all()
 window=MainWindow(js)
 window.mainloop()
 
-
-printStatsToHtml(constants['normal'])
-printStatsToHtml(constants['aram'])
-printStatsToHtml(constants['rankedTeam'])
-printStatsToHtml(constants['soloQ'])
-printStatsToHtml(constants['custom'])
-
-
 js['lolkingUrl']=window.getUpdatedLolkingUrl()
 config = open('config.json','w')
 json.dump(js, config, sort_keys=True, indent=4)

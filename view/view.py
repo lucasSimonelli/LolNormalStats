@@ -5,7 +5,7 @@ import ttk, requests #Todo: redefine exception in inout and import that
 
 #Packages
 from database.updates import loadNewMatches
-
+from utilities.inout import printAllStatsToHtml
 
 class MainWindow:
 	def __init__(self,js):
@@ -14,13 +14,16 @@ class MainWindow:
 		self.master.title('LolNormalStats')
 		w=self.master.winfo_screenwidth()
 		h=self.master.winfo_screenheight()
-		self.master.geometry("300x100+%d+%d" % ( (w-300)/2, (h-100)/2 ) )
+		wid = 310
+		hei = 80
+		self.master.geometry(str(wid)+"x"+str(hei)+"+%d+%d" % ( (w-wid)/2, (h-hei)/2 ) )
+		self.master.bind('<Escape>', self.end)
 		w = Label(self.master, text="Your lolking url:")
-		w.grid(columnspan=2)
+		w.grid(columnspan=2, sticky='w')
 
-		self.e = Entry(self.master, width=50)
+		self.e = Entry(self.master, width = 50)
 		self.e.insert(0, js['lolkingUrl'])
-		self.e.grid(columnspan=2)
+		self.e.grid(row=1,column=0,columnspan=3,sticky='w')
 
 		self.e.focus_set()
 
@@ -31,6 +34,13 @@ class MainWindow:
 		b2 = Button(self.master, text="Get data", command=self.getData)
 		b2.grid(row=2, column=1)
 
+		b3 = Button(self.master, text="Crunch them stats", command=self.crunchStats)
+		b3.grid(row=2, column=2)
+
+
+	def end(self,master):
+		self.master.destroy()
+
 	def mainloop(self):
 		mainloop()
 
@@ -39,7 +49,7 @@ class MainWindow:
 			loadNewMatches(self.js)
 			tkMessageBox.showinfo(
 				"Ok Url",
-				"data downloaded successfully"
+				"Data downloaded successfully"
 			)
 		except requests.exceptions.MissingSchema:
 			tkMessageBox.showerror(
@@ -54,11 +64,19 @@ class MainWindow:
 				"Ok Url",
 				"Url loaded successfully"
 			)
-		except requests.exceptions.MissingSchema:
+		except requests.exceptions.MissingSchema:#TODO: regexp check the url
 			tkMessageBox.showerror(
 				"Wrong Url",
 				"Cannot open provided url"
 			)
+
+
+	def crunchStats(self):
+		printAllStatsToHtml()
+		tkMessageBox.showinfo(
+			"Stats crunched",
+			"Stats crunched! Check the stats/ folder"
+		)
 
 	def getUpdatedLolkingUrl(self):
 		return self.js['lolkingUrl']
