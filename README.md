@@ -8,6 +8,8 @@ Dependencies [all 32-bit]:
 
 * html-py: http://www.decalage.info/python/html#attachments
 
+* Python Image Library: http://www.pythonware.com/products/pil/
+
 * Cx-Freeze(optional, used to freeze the program to an executable): http://cx-freeze.sourceforge.net/
 
 Unfinished yet, but you can start recording your stats by modifying the lolking url in utilities/constants.py,
