@@ -47,10 +47,8 @@ class MainWindow:
 		separator.grid(row=4, padx=5, pady=5)
 		
 		#Buttons
-		b = Button(frame, text="Load lolking url", command=self.callback)
-		b.grid(row=5, column=0)
 		b2 = Button(frame, text="Get data", command=self.getData)
-		b2.grid(row=5, column=1)
+		b2.grid(row=5, column=0)
 		b3 = Button(frame, text="Crunch them stats", command=self.crunchStats)
 		b3.grid(row=5, column=2)
 
@@ -62,30 +60,17 @@ class MainWindow:
 
 	def getData(self):
 		try:
+			self.js['lolkingUrl']=self.e.get()
 			loadNewMatches(self.js)
 			tkMessageBox.showinfo(
 				"Ok Url",
 				"Data downloaded successfully"
 			)
-		except requests.exceptions.MissingSchema:
+		except:
 			tkMessageBox.showerror(
 				"Wrong Url",
 				"Cannot open provided url"
 			)
-
-	def callback(self):
-		try:
-			self.js['lolkingUrl']=self.e.get()
-			tkMessageBox.showinfo(
-				"Ok Url",
-				"Url loaded successfully"
-			)
-		except requests.exceptions.MissingSchema:#TODO: regexp check the url
-			tkMessageBox.showerror(
-				"Wrong Url",
-				"Cannot open provided url"
-			)
-
 
 	def crunchStats(self):
 		printAllStatsToHtml()
