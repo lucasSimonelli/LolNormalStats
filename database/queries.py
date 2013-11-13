@@ -37,7 +37,7 @@ options = {
 	constants['soloQ']:getSoloQStats,
 	constants['aram']:getAramStats,
 	constants['rankedTeam']:getTeamRankedStats,
-	constants['custom']:getTeamRankedStats,
+	constants['custom']:getCustomStats,
 }
 
 #Returns a dict with the query results

@@ -5,8 +5,8 @@ import json
 from database.queries import getChampionStats
 from database.updates import loadNewMatches
 from database.models import *
-from utilities.constants import constants, champions
-from utilities.inout import printHtmlTable, htmlHead, htmlFooter
+from utilities.constants import constants
+from utilities.inout import printHtmlTable, htmlHead, htmlFooter, printStatsToHtml
 from view.view import MainWindow
 
 js={}
@@ -24,23 +24,14 @@ create_all()
 window=MainWindow(js)
 window.mainloop()
 
-f = open('stats.html','w')
-f.write(htmlHead)
-for champion in champions:
-	dict=getChampionStats(champion.lower(), constants['normal'])
-	if dict==None:
-		continue	
-	f.write("<tr>")
-	for key in dict.keys():
-		if key != 'id':
-			if key.lower() == 'champion':
-				f.write("<td><img src=\"img/icons/"+dict[key].title()+".png\" />  "+dict[key].title()+"</td>")
-			else:
-				f.write("<td>"+str(dict[key])+"</td>")
-	f.write("</tr>")
 
-f.write(htmlFooter)
-f.close()
+printStatsToHtml(constants['normal'])
+printStatsToHtml(constants['aram'])
+printStatsToHtml(constants['rankedTeam'])
+printStatsToHtml(constants['soloQ'])
+printStatsToHtml(constants['custom'])
+
+
 js['lolkingUrl']=window.getUpdatedLolkingUrl()
 config = open('config.json','w')
 json.dump(js, config, sort_keys=True, indent=4)

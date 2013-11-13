@@ -220,3 +220,5 @@ pip-log.txt
 #Aux dlls
 
 *.dll
+
+stats/

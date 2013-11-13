@@ -1,7 +1,8 @@
-import HTML, requests
+import HTML, requests, os
 from lxml import html
 
-from utilities.constants import constants
+from utilities.constants import constants, champions
+from database.queries import getChampionStats
 from utilities.misc import findBetween
 
 
@@ -37,6 +38,28 @@ def loadLolkingHTML(json):
 	return parsed
 
 
+def printStatsToHtml(gamemode):
+	directory = 'stats'
+	if not os.path.exists(directory):
+   		os.makedirs(directory)
+	f = open(directory+'/'+gamemode+'-stats.html','w')
+	f.write(htmlHead)
+	for champion in champions:
+		dict=getChampionStats(champion.lower(), gamemode)
+		if dict==None:
+			continue	
+		f.write("<tr>")
+		for key in dict.keys():
+			if key != 'id':
+				if key.lower() == 'champion':
+					f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict[key].title()+".png\" />  "+dict[key].title()+"</td>")
+				else:
+					f.write("<td>"+str(dict[key])+"</td>")
+		f.write("</tr>")
+
+	f.write(htmlFooter)
+	f.close()
+
 htmlHead = """
 <html lang="en">
 <head>
@@ -54,7 +77,7 @@ htmlHead = """
 });
 </script>
 
-<link rel="stylesheet" type="text/css" href="templates/style.css"/>
+<link rel="stylesheet" type="text/css" href="../templates/style.css"/>
 
 
 </head>
