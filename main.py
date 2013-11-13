@@ -6,7 +6,7 @@ from database.queries import getChampionStats
 from database.updates import loadNewMatches
 from database.models import *
 from utilities.constants import constants
-from utilities.inout import printHtmlTable, htmlHead, htmlFooter, printStatsToHtml
+from utilities.inout import printHtmlTable, printStatsToHtml
 from view.view import MainWindow
 
 js={}
