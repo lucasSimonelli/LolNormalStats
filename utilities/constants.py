@@ -4,7 +4,7 @@ constants={
 'rankedTeam':"Ranked Team 5v5",
 'soloQ':"Ranked Solo 5v5",
 'custom':"Custom",
-'lolkingUrl': "http://www.lolking.net/summoner/las/235830",
+'lolkingUrl': "http://www.lolking.net/summoner/euw/22073091",
 'startTrim': "<!-- MATCH HISTORY -->",
 'endTrim': "<!-- MASTERIES -->",
 'detailsExtended': 'match_details_extended',
