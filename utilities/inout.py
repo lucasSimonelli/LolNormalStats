@@ -70,8 +70,10 @@ def printStatsToHtml(gamemode):
 			if key != 'id':
 				if key.lower() == 'champion':
 					f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict[key].title()+".png\" />  "+dict[key].title()+"</td>")
-				else:
+				elif key.lower() == 'wins' or key.lower()=='losses':
 					f.write("<td>"+str(dict[key])+"</td>")
+				else:
+					f.write("<td>"+str(float(dict[key]/(dict['wins']+dict['losses'])))+"</td>")
 		f.write("</tr>")
 
 	f.write(htmlFooter)
