@@ -12,6 +12,7 @@ class MainWindow:
 		self.js = js
 		self.master = Tk('LolNormalStats')
 		self.master.title('LolNormalStats')
+		self.master.resizable(0,0)
 		self.customFont = tkFont.Font(family="Helvetica", size=20)
 		w=self.master.winfo_screenwidth()
 		h=self.master.winfo_screenheight()
@@ -60,7 +61,7 @@ class MainWindow:
 
 	def getData(self):
 		try:
-			self.js['lolkingUrl']=self.e.get()
+			self.js['lolkingUrl']=self.e.get() #TODO:validate link with regexp
 			loadNewMatches(self.js)
 			tkMessageBox.showinfo(
 				"Ok Url",
