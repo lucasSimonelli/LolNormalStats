@@ -12,7 +12,6 @@ Dependencies [all 32-bit]:
 
 * Cx-Freeze(optional, used to freeze the program to an executable): http://cx-freeze.sourceforge.net/
 
-Unfinished yet, but you can start recording your stats by modifying the lolking url in utilities/constants.py,
-and running it once a day.
+Data is scrapped from lolking.net
 
 Will update soon!
