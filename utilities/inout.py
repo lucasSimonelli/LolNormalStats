@@ -66,14 +66,14 @@ def printStatsToHtml(gamemode):
 		if dict==None:
 			continue	
 		f.write("<tr>")
-		for key in dict.keys():
-			if key != 'id':
-				if key.lower() == 'champion':
-					f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict[key].title()+".png\" />  "+dict[key].title()+"</td>")
-				elif key.lower() == 'wins' or key.lower()=='losses':
-					f.write("<td>"+str(dict[key])+"</td>")
-				else:
-					f.write("<td>"+str(float(dict[key]/(dict['wins']+dict['losses'])))+"</td>")
+		f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict['champion'].title()+".png\" />  "+dict['champion'].title()+"</td>")
+		f.write("<td>"+str(float(dict['kills']/(dict['wins']+dict['losses'])))+"</td>")
+		f.write("<td>"+str(float(dict['deaths']/(dict['wins']+dict['losses'])))+"</td>")
+		f.write("<td>"+str(float(dict['assists']/(dict['wins']+dict['losses'])))+"</td>")
+		f.write("<td>"+str(float(dict['minions']/(dict['wins']+dict['losses'])))+"</td>")
+		f.write("<td>"+str(float(dict['gold']/(dict['wins']+dict['losses'])))+"</td>")
+		f.write("<td>"+str(dict['wins'])+"</td>")
+		f.write("<td>"+str(dict['losses'])+"</td>")
 		f.write("</tr>")
 
 	f.write(htmlFooter)
