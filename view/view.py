@@ -1,7 +1,7 @@
 #Libs
 import tkMessageBox
 from Tkinter import *
-import ttk, tkFont, Image, requests, ImageTk #Todo: redefine exception in inout and import that
+import ttk, tkFont, Image, requests, ImageTk,time #Todo: redefine exception in inout and import that
 
 #Packages
 from database.updates import loadNewMatches
@@ -56,7 +56,12 @@ class MainWindow:
 	def end(self,master):
 		self.master.destroy()
 
+	#Hide  
 	def mainloop(self):
+		
+		time.sleep(10)
+		self.master.update()
+		self.master.deiconify()
 		mainloop()
 
 	def getData(self):
@@ -72,6 +77,17 @@ class MainWindow:
 				"Wrong Url",
 				"Cannot open provided url"
 			)
+
+
+	def getDataTest(self):
+		self.js['lolkingUrl']=self.e.get() #TODO:validate link with regexp
+		loadNewMatches(self.js)
+		tkMessageBox.showinfo(
+			"Ok Url",
+			"Data downloaded successfully"
+		)
+		self.master.wm_state('iconic')
+		self.master.iconify()
 
 	def crunchStats(self):
 		printAllStatsToHtml()
