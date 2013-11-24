@@ -1,5 +1,5 @@
 #Libs
-import json
+import json, time
 
 #My packages
 from database.queries import getChampionStats
@@ -9,23 +9,29 @@ from utilities.constants import constants
 from utilities.inout import printHtmlTable, printStatsToHtml
 from view.view import MainWindow
 
-js={}
+DELAY = 5*3600 #Every 5 hours
+
+
+config={}
 try:
-	config = open('config.json','r')
-	js = json.load(config) 
-	config.close()
+	configFile = open('config.json','r')
+	config = json.load(configFile) 
+	configFile.close()
 except IOError:
-	js['lolkingUrl'] = constants['lolkingUrl']
+	config['lolkingUrl'] = constants['lolkingUrl']
 	
 
 
 setup_all()
 create_all()
-window=MainWindow(js)
+window=MainWindow(config)
 window.mainloop()
+while True:
+	time.sleep(DELAY)
+	loadNewMatches(config)
 
-js['lolkingUrl']=window.getUpdatedLolkingUrl()
-config = open('config.json','w')
-json.dump(js, config, sort_keys=True, indent=4)
-config.close()
-print "#Lata!"
+config['lolkingUrl']=window.getUpdatedLolkingUrl()
+configFile = open('config.json','w')
+json.dump(configFile, config, sort_keys=True, indent=4)
+configFile.close()
+print "#Lata"

@@ -1,4 +1,4 @@
-import HTML, requests, os
+import HTML, requests, os, re
 from lxml import html
 
 from utilities.constants import constants, champions
@@ -86,3 +86,17 @@ def printAllStatsToHtml():
 	printStatsToHtml(constants['rankedTeam'])
 	printStatsToHtml(constants['soloQ'])
 	printStatsToHtml(constants['custom'])
+
+expr = r'http://www.lolking.net/summoner/[a-z][a-z]{1,3}/[0-9]+'
+
+def validateLolkingUrl(string):
+	m = re.match(expr,string)
+	if m:
+		return True
+	return False
+
+def updateLolkingUrl(newUrl,dict):
+	if not validateLolkingUrl(newUrl):
+		return False
+	dict['lolkingUrl']=newUrl
+	return True

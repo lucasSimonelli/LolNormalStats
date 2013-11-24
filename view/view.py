@@ -5,7 +5,7 @@ import ttk, tkFont, Image, requests, ImageTk,time #Todo: redefine exception in i
 
 #Packages
 from database.updates import loadNewMatches
-from utilities.inout import printAllStatsToHtml
+from utilities.inout import printAllStatsToHtml, updateLolkingUrl
 
 class MainWindow:
 	def __init__(self,js):
@@ -48,20 +48,16 @@ class MainWindow:
 		separator.grid(row=4, padx=5, pady=5)
 		
 		#Buttons
-		b2 = Button(frame, text="Get data", command=self.getData)
+		b2 = Button(frame, text="Update lolking url", command=self.updateUrl)
 		b2.grid(row=5, column=0)
-		b3 = Button(frame, text="Crunch them stats", command=self.crunchStats)
+		b3 = Button(frame, text="Start", command=self.end)
 		b3.grid(row=5, column=2)
 
-	def end(self,master):
+	def end(self):
 		self.master.destroy()
 
-	#Hide  
-	def mainloop(self):
-		
-		time.sleep(10)
-		self.master.update()
-		self.master.deiconify()
+	#Hide self.master.withdraw() show: self.master.update()	self.master.deiconify() 
+	def mainloop(self):		
 		mainloop()
 
 	def getData(self):
@@ -79,22 +75,17 @@ class MainWindow:
 			)
 
 
-	def getDataTest(self):
-		self.js['lolkingUrl']=self.e.get() #TODO:validate link with regexp
-		loadNewMatches(self.js)
-		tkMessageBox.showinfo(
-			"Ok Url",
-			"Data downloaded successfully"
-		)
-		self.master.wm_state('iconic')
-		self.master.iconify()
-
-	def crunchStats(self):
-		printAllStatsToHtml()
-		tkMessageBox.showinfo(
-			"Stats crunched",
-			"Stats crunched! Check the stats/ folder"
-		)
+	def updateUrl(self):
+		if updateLolkingUrl(self.e.get(),self.js):
+			tkMessageBox.showinfo(
+				"Ok Url",
+				"Url set"
+			)
+		else:
+			tkMessageBox.showerror(
+				"Wrong Url",
+				"You didn't provide a valid lolking url"
+			)
 
 	def getUpdatedLolkingUrl(self):
 		return self.js['lolkingUrl']

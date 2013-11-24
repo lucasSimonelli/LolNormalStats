@@ -18,7 +18,7 @@ champions=[
 	"Gangplank", "Garen", "Gragas", "Graves", "Hecarim", "Heimerdinger", "Irelia", 
 	"Janna", "Jarvan IV", "Jayce", "Jax", "Jinx", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle",
 	"Kennen", "KhaZix", "KogMaw", "LeBlanc", "Lee Sin", "Leona", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", 
-	"Malzahar", "Maokai", "MasterYi", "MissFortune", "Mordekaiser", "Morgana", "Nami",
+	"Malzahar", "Maokai", "MasterYi", "MissFortune", "Monkeyking", "Mordekaiser", "Morgana", "Nami",
 	"Nasus", "Nautilus", "Nidalee", "Nocturne", "Nunu", "Olaf", "Orianna", "Pantheon",
 	"Poppy","Quinn", "Rammus", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Sejuani", "Shaco",
 	"Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka", "Swain", "Syndra", 
