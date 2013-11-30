@@ -48,31 +48,21 @@ class MainWindow:
 		separator.grid(row=4, padx=5, pady=5)
 		
 		#Buttons
-		b2 = Button(frame, text="Update lolking url", command=self.updateUrl)
-		b2.grid(row=5, column=0)
+		#b2 = Button(frame, text="Update lolking url", command=self.updateUrl)
+		#b2.grid(row=5, column=0)
 		b3 = Button(frame, text="Start", command=self.end)
 		b3.grid(row=5, column=2)
 
 	def end(self):
+		if not updateLolkingUrl(self.e.get(),self.js):
+			tkMessageBox.showerror("Wrong Url","Cannot open provided url")
+			return
+		tkMessageBox.showinfo("Ok Url","Url set, starting program")
 		self.master.destroy()
 
 	#Hide self.master.withdraw() show: self.master.update()	self.master.deiconify() 
 	def mainloop(self):		
 		mainloop()
-
-	def getData(self):
-		try:
-			self.js['lolkingUrl']=self.e.get() #TODO:validate link with regexp
-			loadNewMatches(self.js)
-			tkMessageBox.showinfo(
-				"Ok Url",
-				"Data downloaded successfully"
-			)
-		except:
-			tkMessageBox.showerror(
-				"Wrong Url",
-				"Cannot open provided url"
-			)
 
 
 	def updateUrl(self):

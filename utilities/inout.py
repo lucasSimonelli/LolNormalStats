@@ -62,9 +62,12 @@ def printStatsToHtml(gamemode):
 	f = open(directory+'/'+gamemode+'-stats.html','w')
 	f.write(htmlHead % (gamemode,gamemode))
 	for champion in champions:
-		dict=getChampionStats(champion.lower(), gamemode)
-		if dict==None:
+		query=getChampionStats(champion.lower(), gamemode)
+		if query==None:
 			continue	
+		
+		dict = computeAverageStats(query, champion.lower(), gamemode)
+
 		f.write("<tr>")
 		f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict['champion'].title()+".png\" />  "+dict['champion'].title()+"</td>")
 		f.write("<td>"+str(float(dict['kills']/(dict['wins']+dict['losses'])))+"</td>")
@@ -86,6 +89,7 @@ def printAllStatsToHtml():
 	printStatsToHtml(constants['rankedTeam'])
 	printStatsToHtml(constants['soloQ'])
 	printStatsToHtml(constants['custom'])
+	printStatsToHtml(constants['oneForAll'])
 
 expr = r'http://www.lolking.net/summoner/[a-z][a-z]{1,3}/[0-9]+'
 
@@ -100,3 +104,22 @@ def updateLolkingUrl(newUrl,dict):
 		return False
 	dict['lolkingUrl']=newUrl
 	return True
+
+def computeAverageStats(query, champion, gameType):
+	dict={'champion':champion, 'gameType': gameType, 'wins':0, 'losses':0, 'kills':0, 
+		'deaths':0, 'assists':0, 'minions':0, 'gold':0}
+	dict['wins'] = 0
+	dict['losses'] = 0
+	for match in query:
+		match = match.to_dict()
+		if match['won']:
+			dict['wins']+=1
+		else:
+			dict['losses']+=1
+		dict['kills']+=match['kills']
+		dict['deaths']+=match['deaths']
+		dict['assists']+=match['assists']
+		dict['minions']+=match['minions']
+		dict['gold']+=match['gold']
+
+	return dict

@@ -3,6 +3,7 @@ constants={
 'aram':"Howling Abyss",
 'rankedTeam':"Ranked Team 5v5",
 'soloQ':"Ranked Solo 5v5",
+'oneForAll':"One For All",
 'custom':"Custom",
 'lolkingUrl': "http://www.lolking.net/summoner/euw/22073091",
 'startTrim': "<!-- MATCH HISTORY -->",
