@@ -75,8 +75,8 @@ def printStatsToHtml(gamemode):
 		f.write("<td>"+format%float(dict['assists']/float(dict['wins']+dict['losses']))+"</td>")
 		f.write("<td>"+format%float(dict['minions']/float(dict['wins']+dict['losses']))+"</td>")
 		f.write("<td>"+format%float(dict['gold']/float(dict['wins']+dict['losses']))+"</td>")
-		f.write("<td>"+format%dict['wins']+"</td>")
-		f.write("<td>"+format%dict['losses']+"</td>")
+		f.write("<td>"+str(dict['wins'])+"</td>")
+		f.write("<td>"+str(dict['losses'])+"</td>")
 		f.write("<td>"+format%(dict['wins']*100/float(dict['wins']+dict['losses']))+"%"+"</td>")
 		f.write("</tr>")
 
