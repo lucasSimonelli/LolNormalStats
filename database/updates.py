@@ -50,7 +50,6 @@ def extractData(detail,gameID):
 	#5th cell: minions
 	minions = int(detail[4][1][0].text)
 	dbObject = Match(champion=champion, gameID=gameID, gameType=gameType,won=won,kills=kills,deaths=deaths,assists=assists,gold=gold,minions=minions)
-	updateGameTypeSpecificStats(dbObject,gameType)
 	session.add(dbObject)
 
 

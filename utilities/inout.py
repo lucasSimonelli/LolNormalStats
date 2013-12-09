@@ -67,16 +67,17 @@ def printStatsToHtml(gamemode):
 			continue	
 		
 		dict = computeAverageStats(query, champion.lower(), gamemode)
-
+		format = "%0.2f"
 		f.write("<tr>")
 		f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict['champion'].title()+".png\" />  "+dict['champion'].title()+"</td>")
-		f.write("<td>"+str(float(dict['kills']/(dict['wins']+dict['losses'])))+"</td>")
-		f.write("<td>"+str(float(dict['deaths']/(dict['wins']+dict['losses'])))+"</td>")
-		f.write("<td>"+str(float(dict['assists']/(dict['wins']+dict['losses'])))+"</td>")
-		f.write("<td>"+str(float(dict['minions']/(dict['wins']+dict['losses'])))+"</td>")
-		f.write("<td>"+str(float(dict['gold']/(dict['wins']+dict['losses'])))+"</td>")
-		f.write("<td>"+str(dict['wins'])+"</td>")
-		f.write("<td>"+str(dict['losses'])+"</td>")
+		f.write("<td>"+format%float(dict['kills']/float(dict['wins']+dict['losses']))+"</td>")
+		f.write("<td>"+format%float(dict['deaths']/float(dict['wins']+dict['losses']))+"</td>")
+		f.write("<td>"+format%float(dict['assists']/float(dict['wins']+dict['losses']))+"</td>")
+		f.write("<td>"+format%float(dict['minions']/float(dict['wins']+dict['losses']))+"</td>")
+		f.write("<td>"+format%float(dict['gold']/float(dict['wins']+dict['losses']))+"</td>")
+		f.write("<td>"+format%dict['wins']+"</td>")
+		f.write("<td>"+format%dict['losses']+"</td>")
+		f.write("<td>"+format%(dict['wins']*100/float(dict['wins']+dict['losses']))+"%"+"</td>")
 		f.write("</tr>")
 
 	f.write(htmlFooter)

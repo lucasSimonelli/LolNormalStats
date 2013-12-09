@@ -34,10 +34,10 @@ json.dump(config, configFile, sort_keys=True, indent=4)
 configFile.close()
 
 while True:
+	loadNewMatches(config)
 	printAllStatsToHtml()
 	print "Download successful"
 	print "Waiting for "+ str(DELAY/3600)+" hour to perform new query"
-	loadNewMatches(config)
 	time.sleep(DELAY)
 	
 
