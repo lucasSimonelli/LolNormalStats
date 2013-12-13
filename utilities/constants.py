@@ -25,6 +25,6 @@ champions=[
 	"Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka", "Swain", "Syndra", 
 	"Talon", "Taric", "Teemo", "Tristana", "Trundle", "Trydamere", "Twisted Fate", "Twitch",
 	"Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vi", "Viktor", "Vladimir", "Volibear", 
-	"Warwick", "Wukong", "Xerath", "XinZhao", "Yorick", "Zac", "Ziggs", "Zilean", "Zyra"
+	"Warwick", "Wukong", "Xerath", "XinZhao", "Yorick", "Zac","Zed" ,"Ziggs", "Zilean", "Zyra"
 ]
 
