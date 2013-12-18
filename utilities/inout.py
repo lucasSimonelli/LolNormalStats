@@ -67,7 +67,7 @@ def printStatsToHtml(gamemode):
 			continue	
 		
 		dict = computeAverageStats(query, champion.lower(), gamemode)
-		format = "%0.2f"
+		format = "%0.1f"
 		f.write("<tr>")
 		f.write("<td style=\"white-space: nowrap;\"><img src=\"../img/icons/"+dict['champion'].title()+".png\" />  "+dict['champion'].title()+"</td>")
 		f.write("<td>"+format%float(dict['kills']/float(dict['wins']+dict['losses']))+"</td>")
