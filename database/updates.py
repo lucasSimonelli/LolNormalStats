@@ -55,6 +55,7 @@ def extractData(detail,gameID):
 
 def loadNewMatches(json):
 	parsed = loadLolkingHTML(json)
+
 	for match in parsed:
 		gameID = int(match.get(constants['dataGameIdClass']))
 		#Check if match is already in db

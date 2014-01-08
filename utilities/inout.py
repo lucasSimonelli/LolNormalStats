@@ -30,12 +30,11 @@ def printHtmlTable(list):
 
 
 def loadLolkingHTML(json):
-	r = requests.get(json['lolkingUrl'])
-
-	historyHTML = findBetween(r.text,constants['startTrim'],constants['endTrim'])
-	historyHTML = historyHTML.rstrip('\n')[3:-2] #Removing \n hardcodily.
-	parsed = html.fromstring(historyHTML)
-	return parsed
+	r = requests.get(json['lolkingUrl']) 
+	htmlResponse = html.fromstring(r.text)
+	won = htmlResponse.xpath("//div[@class='match_win']")
+	lost = htmlResponse.xpath("//div[@class='match_loss']")
+	return won+lost
 
 
 def printStatsToHtml(gamemode):
@@ -74,7 +73,7 @@ def printStatsToHtml(gamemode):
 		f.write("<td>"+format%float(dict['deaths']/float(dict['wins']+dict['losses']))+"</td>")
 		f.write("<td>"+format%float(dict['assists']/float(dict['wins']+dict['losses']))+"</td>")
 		f.write("<td>"+format%float(dict['minions']/float(dict['wins']+dict['losses']))+"</td>")
-		f.write("<td>"+format%float(dict['gold']/float(dict['wins']+dict['losses']))+"</td>")
+		f.write("<td>"+format%float(dict['gold']/float(dict['wins']+dict['losses'])/1000)+"k</td>")
 		f.write("<td>"+str(dict['wins'])+"</td>")
 		f.write("<td>"+str(dict['losses'])+"</td>")
 		f.write("<td>"+format%(dict['wins']*100/float(dict['wins']+dict['losses']))+"%"+"</td>")
