@@ -1,5 +1,6 @@
 #Libs
-import json, time, shutil, os
+import json, time, shutil, os, winshell
+from win32com.client import Dispatch
 
 #My packages
 from database.queries import getChampionStats
@@ -9,11 +10,10 @@ from utilities.constants import constants
 from utilities.inout import printAllStatsToHtml
 from view.view import MainWindow
 
+
+
 DELAY = 5*3600 #Every 5 hours
 
-#Copy file to auto startup this shit
-direct = os.getcwd()
-#shutil.copy2('/dir/file.ext', '/new/dir/newname.ext')
 config={}
 try:
 	configFile = open('config.json','r')
@@ -22,6 +22,20 @@ try:
 except (IOError, ValueError):
 	config['username'] = constants['defaultUser']
 	config['server'] = constants['defaultServer']
+	
+	#Create shortcut for autostarting
+	desktop = winshell.programs()
+	path = os.path.join(desktop, "startup/LolNormalStats.lnk")
+	target = os.getcwd()+"/main.exe"
+	wDir = os.getcwd()
+	icon = os.getcwd()+"/img/icons/zed.png"
+
+	shell = Dispatch('WScript.Shell')
+	shortcut = shell.CreateShortCut(path)
+	shortcut.Targetpath = target
+	shortcut.WorkingDirectory = wDir
+	shortcut.IconLocation = icon
+	shortcut.save()
 
 
 setup_all()

@@ -1,21 +1,15 @@
-import HTML, requests, os, re
-from lxml import html
+import os, winshell
+from win32com.client import Dispatch
 
+desktop = winshell.programs()
+path = os.path.join(desktop, "startup/LolNormalStats.lnk")
+target = os.getcwd()+"/dist/main.exe"
+wDir = r"D:\Users\Myself\My Music"
+icon = r"D:\Users\Myself\My Music\some_file.mp3"
 
-def getLolkingPermalink(username, userServer):
-	exprLink = r'.*(summoner/.*/[0-9]+).*'
-	exprSv = r'.*summoner/(.*)/.*'
-	r = requests.get("http://www.lolking.net/search?name="+username)
-	htmlResponse = html.fromstring(r.text)
-	items = htmlResponse.xpath("//div[@class='search_result_item']")
-	link = "a/"
-	for element in items:
-		text = element.get('onclick')
-		server = re.search(exprSv, text).group(1)
-		if server == userServer:
-			link += re.search(exprLink, text).group(1)
-			break
-
-	return link
-	
-getLolkingPermalink("DreamMirrors","las")
+shell = Dispatch('WScript.Shell')
+shortcut = shell.CreateShortCut(path)
+shortcut.Targetpath = target
+shortcut.WorkingDirectory = wDir
+shortcut.IconLocation = icon
+shortcut.save()
