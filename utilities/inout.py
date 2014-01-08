@@ -5,6 +5,8 @@ from utilities.constants import constants, champions
 from database.queries import getChampionStats
 from utilities.misc import findBetween
 
+class SummonerNotFound(Exception):
+    pass
 
 #Returns a list of lists, the first one containing the keys and the second one the values
 def dictToListOfLists(dict):
@@ -29,17 +31,12 @@ def printHtmlTable(list):
 		f.close()
 
 
-def loadLolkingHTML(json):
-	r = requests.get(json['lolkingUrl']) 
+def loadLolkingHTML(url):
+	r = requests.get(url) 
 	htmlResponse = html.fromstring(r.text)
 	won = htmlResponse.xpath("//div[@class='match_win']")
 	lost = htmlResponse.xpath("//div[@class='match_loss']")
 	return won+lost
-
-def getLolkingPermalink(username):
-	r = requests.get(constants['lolkingBase']+username)
-	htmlResponse = html.fromstring(r.text)
-	items = htmlResponse.xpath("//div[@class='search_result_item']")
 
 
 def printStatsToHtml(gamemode):
@@ -94,7 +91,7 @@ def printAllStatsToHtml():
 	printStatsToHtml(constants['rankedTeam'])
 	printStatsToHtml(constants['soloQ'])
 	printStatsToHtml(constants['custom'])
-	printStatsToHtml(constants['oneForAll'])
+	#printStatsToHtml(constants['oneForAll'])
 
 def validateLolkingUrl(string):
 	expr = r'http://www.lolking.net/summoner/[a-z][a-z]{1,3}/[0-9]+'
@@ -103,11 +100,9 @@ def validateLolkingUrl(string):
 		return True
 	return False
 
-def updateLolkingUrl(newUrl,dict):
-	if not validateLolkingUrl(newUrl):
-		return False
-	dict['lolkingUrl']=newUrl
-	return True
+def updateLolkingUrl(username,server,dict):
+	newUrl = getLolkingPermalink(username, server)
+	return newUrl
 
 def computeAverageStats(query, champion, gameType):
 	dict={'champion':champion, 'gameType': gameType, 'wins':0, 'losses':0, 'kills':0, 
@@ -135,6 +130,8 @@ def getLolkingPermalink(username, userServer):
 	r = requests.get("http://www.lolking.net/search?name="+username)
 	htmlResponse = html.fromstring(r.text)
 	items = htmlResponse.xpath("//div[@class='search_result_item']")
+	if len(items)==0:
+		raise SummonerNotFound()
 	link = constants['lolking']
 	for element in items:
 		text = element.get('onclick')

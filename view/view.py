@@ -5,18 +5,19 @@ import ttk, tkFont, Image, requests, ImageTk,time #Todo: redefine exception in i
 
 #Packages
 from database.updates import loadNewMatches
-from utilities.inout import printAllStatsToHtml, updateLolkingUrl
+from utilities.inout import printAllStatsToHtml, updateLolkingUrl, SummonerNotFound
 
 class MainWindow:
 	def __init__(self,js):
 		self.js = js
+		self.url = ""
 		self.master = Tk('LolNormalStats')
 		self.master.title('LolNormalStats')
 		self.master.resizable(0,0)
 		self.customFont = tkFont.Font(family="Helvetica", size=20)
 		w=self.master.winfo_screenwidth()
 		h=self.master.winfo_screenheight()
-		wid = 340
+		wid = 300
 		hei = 450
 		self.master.geometry(str(wid)+"x"+str(hei)+"+%d+%d" % ( (w-wid)/2, (h-hei)/2 ) )
 		self.master.bind('<Escape>', self.end)
@@ -37,48 +38,67 @@ class MainWindow:
 			pass
 
 		#Label
-		w = Label(frame, text="Your lolking url:")
-		w.grid(columnspan=2, sticky='w')
+		w = Label(frame, text="Username:")
+		w.grid(row=3, column=0, sticky='e')
 
 		#Text entry
-		self.e = Entry(frame, width = 50)
-		self.e.insert(0, js['lolkingUrl'])
-		self.e.grid(row=3,column=0,columnspan=3,sticky='w')
+		self.e = Entry(frame)
+		self.e.insert(0, js['username'])
+		self.e.grid(row=3, column=1,sticky='w')
 		self.e.focus_set()
 
-		#Separator
-		separator = Frame(frame)
-		separator.grid(row=4, padx=5, pady=5)
+		#Label sv
+		w2 = Label(frame, text="Server:")
+		w2.grid(row=4, column=0, sticky='e')
+
+		#Selector sv
+		self.sv=StringVar()
+		self.sv.set(js['server'])
+		separator = OptionMenu(frame, self.sv, "las","lan","na","euw","eune","br","tr","ru","oce")
+		separator.grid(row=4, column=1, sticky='w')
 		
 		#Buttons
-		#b2 = Button(frame, text="Update lolking url", command=self.updateUrl)
-		#b2.grid(row=5, column=0)
 		b3 = Button(frame, text="Start", command=self.end)
-		b3.grid(row=5, column=2)
+		b3.grid(row=5, columnspan=6, pady=6)
 
 	def end(self):
-		if not updateLolkingUrl(self.e.get(),self.js):
-			tkMessageBox.showerror("Wrong Url","Cannot open provided url")
+		self.js['username'] = self.e.get()
+		self.js['server'] = self.sv.get()
+		try:
+			self.url = updateLolkingUrl(self.e.get(), self.sv.get(), self.js)
+		except SummonerNotFound:
+			tkMessageBox.showerror(
+				"Summoner not found",
+				"Summoner name "+self.js['username']+ " was not found in "+ self.js['server'].upper()
+			)
 			return
-		tkMessageBox.showinfo("Ok Url","Url set, starting program")
+		tkMessageBox.showinfo(
+			"Ok",
+			"Summoner found, starting data download"
+		)
 		self.master.destroy()
 
 	#Hide self.master.withdraw() show: self.master.update()	self.master.deiconify() 
 	def mainloop(self):		
 		mainloop()
 
+	def getUsername(self):
+		return self.js['username']
+
+	def getServer(self):
+		return self.js['server']
+
+	def getUrl(self):
+		return self.url
 
 	def updateUrl(self):
 		if updateLolkingUrl(self.e.get(),self.js):
 			tkMessageBox.showinfo(
 				"Ok Url",
-				"Url set"
+				"Summoner found, starting data download"
 			)
 		else:
 			tkMessageBox.showerror(
 				"Wrong Url",
-				"You didn't provide a valid lolking url"
+				"The provided summoner name was not found in the given region"
 			)
-
-	def getUpdatedLolkingUrl(self):
-		return self.js['lolkingUrl']

@@ -20,24 +20,26 @@ try:
 	config = json.load(configFile) 
 	configFile.close()
 except (IOError, ValueError):
-	config['lolkingUrl'] = constants['lolkingUrl']
-	
+	config['username'] = constants['defaultUser']
+	config['server'] = constants['defaultServer']
 
 
 setup_all()
 create_all()
 window=MainWindow(config)
 window.mainloop()
-config['lolkingUrl'] = window.getUpdatedLolkingUrl()
+config['username'] = window.getUsername()
+config['server'] = window.getServer()
+lolkingUrl = window.getUrl()
 configFile = open('config.json','w')
 json.dump(config, configFile, sort_keys=True, indent=4)
 configFile.close()
 
 while True:
-	loadNewMatches(config)
+	loadNewMatches(lolkingUrl)
 	printAllStatsToHtml()
 	print "Download successful"
-	print "Waiting for "+ str(DELAY/3600)+" hour to perform new query"
+	print "Waiting for "+ str(DELAY/3600)+" hours to perform new query"
 	time.sleep(DELAY)
 	
 

@@ -53,8 +53,8 @@ def extractData(detail,gameID):
 	session.add(dbObject)
 
 
-def loadNewMatches(json):
-	parsed = loadLolkingHTML(json)
+def loadNewMatches(url):
+	parsed = loadLolkingHTML(url)
 
 	for match in parsed:
 		gameID = int(match.get(constants['dataGameIdClass']))
