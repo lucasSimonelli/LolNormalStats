@@ -24,8 +24,8 @@ except (IOError, ValueError):
 	config['server'] = constants['defaultServer']
 	
 	#Create shortcut for autostarting
-	desktop = winshell.programs()
-	path = os.path.join(desktop, "startup/LolNormalStats.lnk")
+	desktop = winshell.startup()
+	path = os.path.join(desktop, "LolNormalStats.lnk")
 	target = os.getcwd()+"/main.exe"
 	wDir = os.getcwd()
 	icon = os.getcwd()+"/img/icons/zed.png"
