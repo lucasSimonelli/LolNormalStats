@@ -29,9 +29,12 @@ class MainWindow:
 
 		#Image
 		#TODO: error check
-		im = Image.open('img/lol.png')
-		self.tkimage = ImageTk.PhotoImage(im)
-		Label(frame, image=self.tkimage).grid(row=1, columnspan=4) 
+		try:
+			im = Image.open('img/lol.png')
+			self.tkimage = ImageTk.PhotoImage(im)
+			Label(frame, image=self.tkimage).grid(row=1, columnspan=4) 
+		except IOError:
+			pass
 
 		#Label
 		w = Label(frame, text="Your lolking url:")

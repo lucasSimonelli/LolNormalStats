@@ -36,6 +36,11 @@ def loadLolkingHTML(json):
 	lost = htmlResponse.xpath("//div[@class='match_loss']")
 	return won+lost
 
+def getLolkingPermalink(username):
+	r = requests.get(constants['lolkingBase']+username)
+	htmlResponse = html.fromstring(r.text)
+	items = htmlResponse.xpath("//div[@class='search_result_item']")
+
 
 def printStatsToHtml(gamemode):
 	directory = 'stats'
@@ -91,9 +96,8 @@ def printAllStatsToHtml():
 	printStatsToHtml(constants['custom'])
 	printStatsToHtml(constants['oneForAll'])
 
-expr = r'http://www.lolking.net/summoner/[a-z][a-z]{1,3}/[0-9]+'
-
 def validateLolkingUrl(string):
+	expr = r'http://www.lolking.net/summoner/[a-z][a-z]{1,3}/[0-9]+'
 	m = re.match(expr,string)
 	if m:
 		return True
@@ -123,3 +127,20 @@ def computeAverageStats(query, champion, gameType):
 		dict['gold']+=match['gold']
 
 	return dict
+
+
+def getLolkingPermalink(username, userServer):
+	exprLink = r'.*(summoner/.*/[0-9]+).*'
+	exprSv = r'.*summoner/(.*)/.*'
+	r = requests.get("http://www.lolking.net/search?name="+username)
+	htmlResponse = html.fromstring(r.text)
+	items = htmlResponse.xpath("//div[@class='search_result_item']")
+	link = constants['lolking']
+	for element in items:
+		text = element.get('onclick')
+		server = re.search(exprSv, text).group(1)
+		if server == userServer:
+			link += re.search(exprLink, text).group(1)
+			break
+
+	return link

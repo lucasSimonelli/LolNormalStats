@@ -5,6 +5,8 @@ constants={
 'soloQ':"Ranked Solo 5v5",
 'oneForAll':"One For All",
 'custom':"Custom",
+'lolking':'http://www.lolking.net/',
+'lolkingSearch': 'http://www.lolking.net/search?name=',
 'lolkingUrl': "http://www.lolking.net/summoner/euw/22073091",
 'startTrim': "<div class=\"tabs3-tabs\">",
 'endTrim': "<ul class=\"pagination_tabs\" style=\"position: absolute; right: 14px; top: 15px;\">",
