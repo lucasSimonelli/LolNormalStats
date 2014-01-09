@@ -18,10 +18,10 @@ constants={
 champions=[
 	"Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", 
 	"Ashe", "Blitzcrank", "Brand", "Caitlyn", "Cassiopeia", "Chogath", "Corki", "Diana", 
-	"Dr. Mundo", "Draven", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio",
+	"Dr. Mundo", "Draven", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio",
 	"Gangplank", "Garen", "Gragas", "Graves", "Hecarim", "Heimerdinger", "Irelia", 
 	"Janna", "Jarvan IV", "Jayce", "Jax", "Jinx", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle",
-	"Kennen", "KhaZix", "KogMaw", "LeBlanc", "Lee Sin", "Leona", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", 
+	"Kennen", "KhaZix", "KogMaw", "LeBlanc", "LeeSin", "Leona", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", 
 	"Malzahar", "Maokai", "MasterYi", "MissFortune", "Monkeyking", "Mordekaiser", "Morgana", "Nami",
 	"Nasus", "Nautilus", "Nidalee", "Nocturne", "Nunu", "Olaf", "Orianna", "Pantheon",
 	"Poppy","Quinn", "Rammus", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Sejuani", "Shaco",
