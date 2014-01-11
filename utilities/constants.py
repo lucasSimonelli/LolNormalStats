@@ -26,7 +26,7 @@ champions=[
 	"Nasus", "Nautilus", "Nidalee", "Nocturne", "Nunu", "Olaf", "Orianna", "Pantheon",
 	"Poppy","Quinn", "Rammus", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Sejuani", "Shaco",
 	"Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka", "Swain", "Syndra", 
-	"Talon", "Taric", "Teemo", "Tristana", "Trundle", "Trydamere", "Twisted Fate", "Twitch",
+	"Talon", "Taric", "Teemo", "Tristana", "Trundle", "Trydamere", "TwistedFate", "Twitch",
 	"Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vi", "Viktor", "Vladimir", "Volibear", 
 	"Warwick", "Wukong", "Xerath", "XinZhao", "Yorick", "Zac","Zed" ,"Ziggs", "Zilean", "Zyra"
 ]
